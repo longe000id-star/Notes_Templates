@@ -240,7 +240,7 @@ A: 尝试无痕模式打开浏览器，或关闭广告拦截插件。
 
 ---
 
-## 致谢 Credits
+## 备注 Note
 
 - 模版参考 [Oxford University Press](https://academic.oup.com) 官方 LaTeX 模版转换
 - 排版引擎：[Typst](https://typst.app) v0.14+
