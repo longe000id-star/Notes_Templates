@@ -1,5 +1,5 @@
 # 适用
-适合理工科学术写作（数学、物理、计算机、生物等），双栏排版，完全匹配 OUP 官方格式。
+适合理工科学术写作（数学、物理、计算机、生物等），双栏排版。
 
 ---
 
@@ -75,7 +75,6 @@ open main.pdf
 ### 关于本模版
 
 本模版基于 OUP `oup-authoring-template.cls` v1.2 (2025) 转换而来，适用于：
-- Oxford University Press 旗下期刊投稿
 - 理工科学术论文（数学、物理、CS、生物医学等）
 - **不适合**：人文社科、无需双栏的轻量文档
 
@@ -191,18 +190,6 @@ style: "traditional",    // OUP Traditional（衬线字体）
 ```typst
 #bibliography("reference.bib", title: "References", style: "apa")
 ```
-
-可选格式：
-- `"apa"` — APA（作者-年份，默认）
-- `"ieee"` — IEEE（编号）
-- `"chicago-author-date"` — Chicago
-- `"vancouver"` — Vancouver（医学期刊）
-
-下载 OUP 官方 CSL：
-```bash
-curl -L "https://raw.githubusercontent.com/citation-style-language/styles/master/oxford-university-press-note.csl" -o oup.csl
-```
-然后改为 `style: "oup.csl"`
 
 ---
 
